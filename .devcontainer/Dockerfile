@@ -15,5 +15,3 @@ ENV LANG=vi_VN.UTF-8 \
     LANGUAGE=vi_VN:vi \
     LC_ALL=vi_VN.UTF-8
 RUN printf "systemctl start systemd-logind" >> /etc/profile 
-
-ENTRYPOINT ["/sbin/init"]
