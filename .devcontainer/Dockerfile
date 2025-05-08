@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers:ubuntu-20.04
+FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN echo 'root:root' | chpasswd
