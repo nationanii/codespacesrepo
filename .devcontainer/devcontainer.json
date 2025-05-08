@@ -164,6 +164,6 @@
 	"privileged": true,
 	"securityOpt": ["seccomp=unconfined"],
 	"capAdd": ["ALL"],
-	"runArgs": ["--volume","/dev/shm:/dev/shm","--volume","/var/run/dbus:/var/run/dbus","--interactive","--tty","--volume","/sys/fs/cgroup:/sys/fs/cgroup","--cgroupns=host","--volume","/lib/modules:/lib/modules","--volume","/boot:/boot","--volume","/mnt/data:/media/512GB-Disk","--volume","/mnt/cloudenvdata:/media/256GB-Disk"]
+	"runArgs": ["--volume","/dev/shm:/dev/shm"]
 
 }
